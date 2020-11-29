@@ -7,7 +7,7 @@ AESLib aesLib;
 const char* ssid = "ssid";
 const char* password = "password";
 const char* mqtt_server = "raspeberrypi";
-const char* mqtt_port = 1883;
+const int mqtt_port = 1883;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
