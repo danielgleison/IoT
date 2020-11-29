@@ -1,128 +1,126 @@
-11:22:50.624 -> INPUT:34
-11:22:50.624 -> 1
-11:22:50.624 -> ENCRYPT
-11:22:50.624 -> Encryption time: 807us
-11:22:51.044 -> DECRYPT
-11:22:51.044 -> Decryption time: 914us
-11:22:51.511 -> SUCCES
-11:22:51.560 -> 2
-11:22:51.560 -> ENCRYPT
-11:22:51.560 -> Encryption time: 863us
-11:22:52.025 -> DECRYPT
-11:22:52.025 -> Decryption time: 910us
-11:22:52.539 -> SUCCES
-11:22:52.539 -> 3
-11:22:52.539 -> ENCRYPT
-11:22:52.539 -> Encryption time: 881us
-11:22:53.013 -> DECRYPT
-11:22:53.050 -> Decryption time: 909us
-11:22:53.523 -> SUCCES
-11:22:53.523 -> 4
-11:22:53.523 -> ENCRYPT
-11:22:53.570 -> Encryption time: 881us
-11:22:54.033 -> DECRYPT
-11:22:54.033 -> Decryption time: 909us
-11:22:54.552 -> SUCCES
-11:22:54.552 -> 5
-11:22:54.552 -> ENCRYPT
-11:22:54.552 -> Encryption time: 868us
-11:22:55.020 -> DECRYPT
-11:22:55.065 -> Decryption time: 910us
-11:22:55.535 -> SUCCES
-11:22:55.535 -> 6
-11:22:55.535 -> ENCRYPT
-11:22:55.582 -> Encryption time: 872us
-11:22:56.050 -> DECRYPT
-11:22:56.050 -> Decryption time: 910us
-11:22:56.522 -> SUCCES
-11:22:56.566 -> 7
-11:22:56.566 -> ENCRYPT
-11:22:56.566 -> Encryption time: 868us
-11:22:57.033 -> DECRYPT
-11:22:57.033 -> Decryption time: 914us
-11:22:57.546 -> SUCCES
-11:22:57.546 -> 8
-11:22:57.546 -> ENCRYPT
-11:22:57.546 -> Encryption time: 863us
-11:22:58.062 -> DECRYPT
-11:22:58.062 -> Decryption time: 918us
-11:22:58.529 -> SUCCES
-11:22:58.576 -> 9
-11:22:58.576 -> ENCRYPT
-11:22:58.576 -> Encryption time: 885us
-11:22:59.044 -> DECRYPT
-11:22:59.044 -> Decryption time: 910us
-11:22:59.561 -> SUCCES
-11:22:59.561 -> 10
-11:22:59.561 -> ENCRYPT
-11:22:59.561 -> Encryption time: 864us
-11:23:00.031 -> DECRYPT
-11:23:00.076 -> Decryption time: 910us
-11:23:00.541 -> SUCCES
-11:23:00.541 -> 11
-11:23:00.541 -> ENCRYPT
-11:23:00.588 -> Encryption time: 863us
-11:23:01.059 -> DECRYPT
-11:23:01.059 -> Decryption time: 909us
-11:23:01.572 -> SUCCES
-11:23:01.572 -> 12
-11:23:01.572 -> ENCRYPT
-11:23:01.572 -> Encryption time: 873us
-11:23:02.038 -> DECRYPT
-11:23:02.085 -> Decryption time: 914us
-11:23:02.549 -> SUCCES
-11:23:02.549 -> 13
-11:23:02.549 -> ENCRYPT
-11:23:02.596 -> Encryption time: 868us
-11:23:03.064 -> DECRYPT
-11:23:03.064 -> Decryption time: 919us
-11:23:03.580 -> SUCCES
-11:23:03.580 -> 14
-11:23:03.580 -> ENCRYPT
-11:23:03.580 -> Encryption time: 872us
-11:23:04.045 -> DECRYPT
-11:23:04.092 -> Decryption time: 913us
-11:23:04.563 -> SUCCES
-11:23:04.563 -> 15
-11:23:04.563 -> ENCRYPT
-11:23:04.563 -> Encryption time: 868us
-11:23:05.076 -> DECRYPT
-11:23:05.076 -> Decryption time: 909us
-11:23:05.546 -> SUCCES
-11:23:05.593 -> 16
-11:23:05.593 -> ENCRYPT
-11:23:05.593 -> Encryption time: 864us
-11:23:06.065 -> DECRYPT
-11:23:06.065 -> Decryption time: 910us
-11:23:06.580 -> SUCCES
-11:23:06.580 -> 17
-11:23:06.580 -> ENCRYPT
-11:23:06.580 -> Encryption time: 864us
-11:23:07.047 -> DECRYPT
-11:23:07.092 -> Decryption time: 909us
-11:23:07.561 -> SUCCES
-11:23:07.561 -> 18
-11:23:07.561 -> ENCRYPT
-11:23:07.608 -> Encryption time: 883us
-11:23:08.061 -> DECRYPT
-11:23:08.061 -> Decryption time: 914us
-11:23:08.575 -> SUCCES
-11:23:08.575 -> 19
-11:23:08.575 -> ENCRYPT
-11:23:08.575 -> Encryption time: 868us
-11:23:09.088 -> DECRYPT
-11:23:09.088 -> Decryption time: 914us
-11:23:09.555 -> SUCCES
-11:23:09.600 -> 20
-11:23:09.600 -> ENCRYPT
-11:23:09.600 -> Encryption time: 868us
-11:23:10.067 -> DECRYPT
-11:23:10.067 -> Decryption time: 910us
-11:23:10.583 -> SUCCES
-11:23:10.583 -> --------------------------
-11:23:10.631 -> Encryption time average: 867us
-11:23:10.631 -> Decryption time average: 911us
-11:23:10.675 -> --------------------------
-11:23:10.721 -> Attempting MQTT connection...connected
-11:23:10.770 -> Publish message encrypted 37Sod912Tr1VJFzs7nZEKQ==
-11:23:10.814 -> Publish message decrypted: 34
+12:32:49.910 -> INPUT:39
+12:32:49.910 -> 1
+12:32:49.910 -> ENCRYPT
+12:32:49.910 -> Encryption time: 785us
+12:32:50.285 -> DECRYPT
+12:32:50.330 -> Decryption time: 914us
+12:32:50.798 -> SUCCES
+12:32:50.798 -> 2
+12:32:50.798 -> ENCRYPT
+12:32:50.845 -> Encryption time: 858us
+12:32:51.312 -> DECRYPT
+12:32:51.312 -> Decryption time: 909us
+12:32:51.826 -> SUCCES
+12:32:51.826 -> 3
+12:32:51.826 -> ENCRYPT
+12:32:51.826 -> Encryption time: 854us
+12:32:52.292 -> DECRYPT
+12:32:52.338 -> Decryption time: 909us
+12:32:52.806 -> SUCCES
+12:32:52.806 -> 4
+12:32:52.806 -> ENCRYPT
+12:32:52.853 -> Encryption time: 855us
+12:32:53.320 -> DECRYPT
+12:32:53.320 -> Decryption time: 911us
+12:32:53.789 -> SUCCES
+12:32:53.836 -> 5
+12:32:53.836 -> ENCRYPT
+12:32:53.836 -> Encryption time: 858us
+12:32:54.304 -> DECRYPT
+12:32:54.304 -> Decryption time: 909us
+12:32:54.819 -> SUCCES
+12:32:54.819 -> 6
+12:32:54.819 -> ENCRYPT
+12:32:54.819 -> Encryption time: 862us
+12:32:55.333 -> DECRYPT
+12:32:55.333 -> Decryption time: 913us
+12:32:55.801 -> SUCCES
+12:32:55.846 -> 7
+12:32:55.846 -> ENCRYPT
+12:32:55.846 -> Encryption time: 859us
+12:32:56.315 -> DECRYPT
+12:32:56.315 -> Decryption time: 909us
+12:32:56.834 -> SUCCES
+12:32:56.834 -> 8
+12:32:56.834 -> ENCRYPT
+12:32:56.834 -> Encryption time: 855us
+12:32:57.299 -> DECRYPT
+12:32:57.345 -> Decryption time: 910us
+12:32:57.815 -> SUCCES
+12:32:57.815 -> 9
+12:32:57.815 -> ENCRYPT
+12:32:57.862 -> Encryption time: 863us
+12:32:58.330 -> DECRYPT
+12:32:58.330 -> Decryption time: 913us
+12:32:58.802 -> SUCCES
+12:32:58.849 -> 10
+12:32:58.849 -> ENCRYPT
+12:32:58.849 -> Encryption time: 860us
+12:32:59.320 -> DECRYPT
+12:32:59.320 -> Decryption time: 913us
+12:32:59.834 -> SUCCES
+12:32:59.834 -> 11
+12:32:59.834 -> ENCRYPT
+12:32:59.834 -> Encryption time: 858us
+12:33:00.347 -> DECRYPT
+12:33:00.347 -> Decryption time: 914us
+12:33:00.817 -> SUCCES
+12:33:00.862 -> 12
+12:33:00.862 -> ENCRYPT
+12:33:00.862 -> Encryption time: 854us
+12:33:01.329 -> DECRYPT
+12:33:01.329 -> Decryption time: 909us
+12:33:01.845 -> SUCCES
+12:33:01.845 -> 13
+12:33:01.845 -> ENCRYPT
+12:33:01.845 -> Encryption time: 859us
+12:33:02.314 -> DECRYPT
+12:33:02.361 -> Decryption time: 910us
+12:33:02.829 -> SUCCES
+12:33:02.829 -> 14
+12:33:02.829 -> ENCRYPT
+12:33:02.876 -> Encryption time: 859us
+12:33:03.343 -> DECRYPT
+12:33:03.343 -> Decryption time: 910us
+12:33:03.854 -> SUCCES
+12:33:03.854 -> 15
+12:33:03.854 -> ENCRYPT
+12:33:03.854 -> Encryption time: 859us
+12:33:04.320 -> DECRYPT
+12:33:04.366 -> Decryption time: 909us
+12:33:04.835 -> SUCCES
+12:33:04.835 -> 16
+12:33:04.835 -> ENCRYPT
+12:33:04.880 -> Encryption time: 863us
+12:33:05.347 -> DECRYPT
+12:33:05.347 -> Decryption time: 910us
+12:33:05.863 -> SUCCES
+12:33:05.863 -> 17
+12:33:05.863 -> ENCRYPT
+12:33:05.863 -> Encryption time: 855us
+12:33:06.331 -> DECRYPT
+12:33:06.376 -> Decryption time: 910us
+12:33:06.846 -> SUCCES
+12:33:06.846 -> 18
+12:33:06.846 -> ENCRYPT
+12:33:06.846 -> Encryption time: 858us
+12:33:07.362 -> DECRYPT
+12:33:07.362 -> Decryption time: 909us
+12:33:07.840 -> SUCCES
+12:33:07.873 -> 19
+12:33:07.873 -> ENCRYPT
+12:33:07.873 -> Encryption time: 859us
+12:33:08.342 -> DECRYPT
+12:33:08.342 -> Decryption time: 909us
+12:33:08.863 -> SUCCES
+12:33:08.863 -> 20
+12:33:08.863 -> ENCRYPT
+12:33:08.863 -> Encryption time: 854us
+12:33:09.334 -> DECRYPT
+12:33:09.380 -> Decryption time: 914us
+12:33:09.846 -> SUCCES
+12:33:09.846 -> --------------------------
+12:33:09.893 -> Encryption time average: 854us
+12:33:09.940 -> Decryption time average: 910us
+12:33:09.940 -> --------------------------
+
