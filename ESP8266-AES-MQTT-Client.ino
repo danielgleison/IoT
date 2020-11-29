@@ -7,6 +7,7 @@ AESLib aesLib;
 const char* ssid = " ";
 const char* password = " ";
 const char* mqtt_server = "raspeberrypi";
+const char* mqtt_port = 1883;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -17,8 +18,6 @@ char msg[MSG_BUFFER_SIZE];
 
 int time_count = 20;
 
-String plaintext = "HELLO WORLD!";
-
 char cleartext[256];
 char ciphertext[512];
 String encrypted, decrypted;
@@ -26,15 +25,12 @@ String encrypted, decrypted;
 // AES Encryption Key
 byte aes_key[] = { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30 };
 
-// General initialization vector (you must use your own IV's in production for full security!!!)
+// General initialization vector
 byte aes_iv[N_BLOCK] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 
 // Generate IV (once)
 void aes_init() {
-  Serial.println("gen_iv()");
   aesLib.gen_iv(aes_iv);
-  Serial.println("encrypt()");
-  Serial.println(encrypt(strdup(plaintext.c_str()), plaintext.length(), aes_iv));
 }
 
 String encrypt(char * msg, uint16_t msgLen, byte iv[]) {
@@ -68,8 +64,6 @@ void setup_wifi() {
       Serial.print(".");
     }
 
-    //randomSeed(micros());
-
     Serial.println("");
     Serial.println("WiFi connected");
     Serial.println("IP address: ");
@@ -98,10 +92,6 @@ void reconnect() {
     // Attempt to connect
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
-      // Once connected, publish an announcement...
-      //client.publish("MACC/IoT/Esp8266/", "teste MQTT Esp8266");
-      // ... and resubscribe
-      //client.subscribe("MACC/IoT/Esp8266/");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -112,7 +102,6 @@ void reconnect() {
   }
 }
 
-
 void setup() {
   Serial.begin(9600);
   while (!Serial); // wait for serial port
@@ -122,7 +111,7 @@ void setup() {
 
   setup_wifi();
 
-  client.setServer(mqtt_server, 1883);
+  client.setServer(mqtt_server, mqtt_port);
   client.setCallback(callback);
 
   char b64in[16] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
