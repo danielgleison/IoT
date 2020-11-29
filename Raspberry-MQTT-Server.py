@@ -3,8 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 mqtt_topic = "MACC/IoT/Esp8266/Decrypted"
-mqtt_broker_ip = "192.168.0.200"
-#mqtt_broker_ip = "broker.mqtt-dashboard.com"
+mqtt_broker_ip = "raspberrypi"
 mqtt_broker_port = 1883
 
  
