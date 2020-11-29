@@ -1,0 +1,46 @@
+12:48:29.665 -> INPUT:26
+12:48:29.712 -> 1
+12:48:29.712 -> MQTT publish time: 3637us
+12:48:30.089 -> 2
+12:48:30.089 -> MQTT publish time: 1995us
+12:48:30.603 -> 3
+12:48:30.603 -> MQTT publish time: 1883us
+12:48:31.073 -> 4
+12:48:31.073 -> MQTT publish time: 1894us
+12:48:31.584 -> 5
+12:48:31.584 -> MQTT publish time: 953us
+12:48:32.100 -> 6
+12:48:32.100 -> MQTT publish time: 949us
+12:48:32.613 -> 7
+12:48:32.613 -> MQTT publish time: 1898us
+12:48:33.080 -> 8
+12:48:33.080 -> MQTT publish time: 2026us
+12:48:33.592 -> 9
+12:48:33.592 -> MQTT publish time: 1909us
+12:48:34.108 -> 10
+12:48:34.108 -> MQTT publish time: 1860us
+12:48:34.620 -> 11
+12:48:34.620 -> MQTT publish time: 1879us
+12:48:35.086 -> 12
+12:48:35.134 -> MQTT publish time: 1898us
+12:48:35.600 -> 13
+12:48:35.600 -> MQTT publish time: 1873us
+12:48:36.112 -> 14
+12:48:36.112 -> MQTT publish time: 1873us
+12:48:36.626 -> 15
+12:48:36.626 -> MQTT publish time: 1871us
+12:48:37.115 -> 16
+12:48:37.115 -> MQTT publish time: 1867us
+12:48:37.605 -> 17
+12:48:37.605 -> MQTT publish time: 1861us
+12:48:38.118 -> 18
+12:48:38.118 -> MQTT publish time: 1890us
+12:48:38.638 -> 19
+12:48:38.638 -> MQTT publish time: 2175us
+12:48:39.105 -> 20
+12:48:39.151 -> MQTT publish time: 1932us
+12:48:39.609 -> --------------------------
+12:48:39.620 -> MQTT publish time average: 1906us
+12:48:39.667 -> --------------------------
+12:48:39.714 -> Published message: kVtDhLJ9JOeP3OClrHyQJQ==
+12:48:39.760 -> Published message: 26
