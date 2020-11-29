@@ -1,0 +1,24 @@
+Executable segment sizes:
+IROM   : 360844          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 27288   / 32768 - code in IRAM          (ICACHE_RAM_ATTR, ISRs...) 
+DATA   : 1508  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 3472  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 31648 )         - zeroed variables      (global, static) in RAM/HEAP 
+O sketch usa 393112 bytes (41%) de espaço de armazenamento para programas. O máximo são 958448 bytes.
+Variáveis globais usam 36628 bytes (44%) de memória dinâmica, deixando 45292 bytes para variáveis locais. O máximo são 81920 bytes.
+esptool.py v2.8
+Serial port COM4
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 2c:3a:e8:06:e8:14
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0340
+Compressed 397264 bytes to 272217...
+Wrote 397264 bytes (272217 compressed) at 0x00000000 in 24.5 seconds (effective 129.9 kbit/s)...
+Hash of data verified.
