@@ -4,8 +4,8 @@
 
 AESLib aesLib;
 
-const char* ssid = " ";
-const char* password = " ";
+const char* ssid = "ssid";
+const char* password = "password";
 const char* mqtt_server = "raspeberrypi";
 const char* mqtt_port = 1883;
 
@@ -184,7 +184,7 @@ unsigned long lastSend;
     time_sum_enc = time_sum_enc + time_aux_enc;
     Serial.println("ENCRYPT");
     sprintf(ciphertext, "%s", encrypted.c_str());
-    Serial.print("Ciphertext: "); Serial.println(encrypted);
+    //Serial.print("Ciphertext: "); Serial.println(encrypted);
     Serial.print("Encryption time: "); Serial.print(time_aux_enc); Serial.println("us");
     delay(500);
 
@@ -195,7 +195,7 @@ unsigned long lastSend;
     unsigned long time_aux_dec = micros() - time_start_dec;
     time_sum_dec = time_sum_dec + time_aux_dec;
     Serial.println("DECRYPT");
-    Serial.print("Cleartext: "); Serial.println(decrypted);
+    //Serial.print("Cleartext: "); Serial.println(decrypted);
     Serial.print("Decryption time: "); Serial.print(time_aux_dec); Serial.println("us");
     delay(500);
 
