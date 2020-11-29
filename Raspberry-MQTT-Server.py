@@ -3,9 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 mqtt_topic = "MACC/IoT/Esp8266/Decrypted"
-mqtt_broker_ip = "raspberrypi"
-mqtt_broker_port = 1883
-
+mqtt_server = "raspberrypi"
+mqtt_port = 1883
  
 client = mqtt.Client()
 
@@ -17,10 +16,7 @@ def on_connect(client, userdata, flags, rc):
 
     client.subscribe(mqtt_topic)
 
-   
-
 def on_message(client, userdata, msg):
-
   
     now = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
     temp = msg.payload.decode('utf-8')
@@ -34,7 +30,7 @@ client.on_connect = on_connect
 
 client.on_message = on_message
 
-client.connect(mqtt_broker_ip, mqtt_broker_port)
+client.connect(mqtt_server, mqtt_port)
  
 client.loop_forever()
 
