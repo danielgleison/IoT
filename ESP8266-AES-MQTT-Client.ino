@@ -16,7 +16,7 @@ unsigned long lastMsg = 0;
 #define MSG_BUFFER_SIZE  (50)
 char msg[MSG_BUFFER_SIZE];
 
-int time_count = 1;
+int time_count = 20;
 unsigned long time_sum_enc = 0;
 unsigned long time_sum_dec = 0;
 
