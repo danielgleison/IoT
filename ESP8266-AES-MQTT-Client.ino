@@ -4,9 +4,9 @@
 
 AESLib aesLib;
 
-const char* ssid = "LeticiaNet";
-const char* password = "Levl151206";
-const char* mqtt_server = "192.168.0.200";
+const char* ssid = "ssid";
+const char* password = "password";
+const char* mqtt_server = "raspberrypi";
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
