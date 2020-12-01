@@ -4,7 +4,7 @@ MQTT Broker: Raspberry Pi 3 (Wi-Fi)\
 MQTT Publish: Esp8266 (Wi-Fi)\
 MQTT Subscribe: Raspberry (Python), Elipse E3 (Driver N2 MQTT), MQTT Box (App Chrome) e MQTTool (App iOS)\
 Banco de dados: Raspberry (CSV/SQL)
----
+
 Daniel Gleison Moreira Lira\
 Mestrado Acadêmico em Ciência da Computação\
 Universidade Estadual do Ceará (UECE)\
