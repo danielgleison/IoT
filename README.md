@@ -6,7 +6,7 @@ MQTT Subscribe: Raspberry (Python), Elipse E3 (Driver N2 MQTT), MQTT Box (App Ch
 Banco de dados: Raspberry (CSV/SQL)
 
 ---
-Daniel Gleison Moreira Lira\
+Daniel Gleison M. Lira\
 Mestrado Acadêmico em Ciência da Computação\
 Universidade Estadual do Ceará (UECE)\
 daniel.gleison@aluno.uece.br 
